@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "automation": {
+    "enabled": true,
+    "last_update": "automated",
+    "features": [
+      "branch_creation",
+      "file_updates",
+      "pull_requests"
+    ]
+  }
+}
