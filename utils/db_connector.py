@@ -7,7 +7,7 @@ import os
 class db_engine:
     def __init__(self):
         self.user = os.getenv('user','postgres')
-        self.password = os.getenv('user','pgadmin')
+        self.password = os.getenv('password','pgadmin')
         self.DATABASE_URL = f'postgresql+psycopg2://{self.user}:{self.password}@localhost:5432/ai_agent_db'
         self.engine = create_engine(self.DATABASE_URL)
         self.Base = declarative_base()
