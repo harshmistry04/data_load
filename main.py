@@ -17,7 +17,7 @@ def main():
                         job_name='New York',
                         start_time=datetime.now(),
                         end_time=datetime.now(),
-                        run_status='SUCCESS',
+                        # run_status='SUCCESS',
                         retry_count=0,
                         created_at=datetime.now(),
                         updated_at=datetime.now()
